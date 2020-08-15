@@ -27,3 +27,13 @@
 .warning {
   background-color: #fd7856;
 }
+
+//Media Query
+@media (min-width: $medium) {
+  .btn {
+  padding: 10px 30px;
+  & + & {
+    margin-left: 10px;
+  }
+}
+}
