@@ -1,5 +1,5 @@
 .headline-primary {
-  color: #58e1c1;
+  color: $secondary-color;
   margin-left: 10px;
 }
 
@@ -9,7 +9,7 @@ p {
 
 * {
   font-family: 'Lato', sans-serif;
-  color: $white;
+  color: $main-color;
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: $white;
+  color: $main-color;
 }
 
 .link {
