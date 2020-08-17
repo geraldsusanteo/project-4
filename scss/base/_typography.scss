@@ -1,7 +1,20 @@
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+p {
+  line-height: 1.45em;
+}
+
 * {
   font-family: 'Lato', sans-serif;
   color: $white;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 .headline-secondary {
