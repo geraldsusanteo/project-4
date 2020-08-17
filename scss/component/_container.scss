@@ -10,14 +10,10 @@
 @media (min-width: $medium) {
   .container {
     max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include center-item;
   }
 
   .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include center-item;
   }
 }
